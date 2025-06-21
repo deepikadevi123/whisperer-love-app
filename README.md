@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -20,3 +21,7 @@ A romantic guessing game built with Vite + React 💘
 # whisperer-love-app-
 A romantic guessing game built with Vite + React 💘
 >>>>>>> 8434423fccdaf55f90be1cfcdaa1347992527a1e
+=======
+# whisperer-love-app
+A romantic guessing game built with Vite + React 💘
+>>>>>>> f8ca2c2a472c8886fd7c1ec5bded798afbb01574
