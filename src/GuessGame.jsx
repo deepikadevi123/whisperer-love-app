@@ -57,11 +57,17 @@ export default function GuessGame() {
     "2024? The year we loved. 💫", "3000? Okay Iron Man 😭 'I love you 3000' huh?",
     "9999? Still not enough, silly boy 😝", "10000? Nope. Still not it.",
     "12345? Sequence complete. But my love is beyond logic 💋",
-    "50000? Dramatic. I approve. 💅", "69420? 😏 You naughty thing...",
-    "99999? Getting obsessive aren’t you 😍", "100000? Hot. Red. Boiling. But still not enough.",
-    "You're getting close, my heart skipped a beat. 💓", "That's adorable, but I'm overflowing with more. ❤️‍🔥",
-    "You’re not wrong, but my love’s louder than that. 🔥", "Nice try... but this heart doesn’t stop counting. 🖤",
-    "It’s more than that, more than words. 💬❤️", "Still short... my love overflows like oceans. 🌊",
+    "50000? Dramatic. I approve. 💅",
+     "69420? 😏 You naughty thing...",
+    "99999? Getting obsessive aren’t you 😍",
+     "100000? Hot. Red. Boiling. But still not enough.",
+
+    "You're getting close, my heart skipped a beat. 💓",
+     "That's adorable, but I'm overflowing with more. ❤️‍🔥",
+    "You’re not wrong, but my love’s louder than that. 🔥", 
+    "Nice try... but this heart doesn’t stop counting. 🖤",
+    "It’s more than that, more than words. 💬❤️",
+     "Still short... my love overflows like oceans. 🌊",
     "That’s a spark... but I’m a storm. 🌩️", "Cute guess. But I’m not that easy to read. 😉",
     "You wish... but I’ve loved you forever. ⏳", "Aww, not even close. Try again, cutie. 😚",
     "You're almost setting the world on fire... almost. 🔥", "Getting warm... keep going baby. 🔥🔥",
@@ -109,7 +115,8 @@ export default function GuessGame() {
       setWrongTries((prev) => prev + 1);
       setGuessHistory((prev) => [...prev, num]);
     } else {
-      const randomResponse = customResponses.find(r => !/^\d+\?/.test(r));
+      const nonNumberedResponses = customResponses.filter(r => !/^\d+\?/.test(r));
+      const randomResponse = nonNumberedResponses[Math.floor(Math.random() * nonNumberedResponses.length)];
       setResponse(`${num}? ${randomResponse}`);
       setWrongTries((prev) => prev + 1);
       setGuessHistory((prev) => [...prev, num]);
