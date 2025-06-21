@@ -34,7 +34,7 @@ export default function GuessGame() {
   };
 
   const customResponses = [
-        "0? That hurts... 😭", "1? Only one? That’s just the beginning. 💔",
+    "0? That hurts... 😭", "1? Only one? That’s just the beginning. 💔",
     "5? Just a spark... I’m a wildfire 🔥", "10? My love is deeper than that.",
     "15? Baby, that’s not even a quarter. 😒", "20? Mmm, warm-up love. ❤️",
     "25? Closer, but I love harder.", "30? That’s when kisses start getting addictive 😘",

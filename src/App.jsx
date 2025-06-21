@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import messages from './messages';
 import bgImage from './assets/bg-2.jpg'
+import messages from "./messages";
 import yadTrack from './assets/yadTrack.mp3';
 import { Link } from 'react-router-dom';
 
