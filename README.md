@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -15,3 +16,7 @@ If you are developing a production application, we recommend using TypeScript wi
 # whisperer-love-app-
 A romantic guessing game built with Vite + React 💘
 >>>>>>> 3eb446102729cf640400219db88ea46d6473c247
+=======
+# whisperer-love-app-
+A romantic guessing game built with Vite + React 💘
+>>>>>>> 8434423fccdaf55f90be1cfcdaa1347992527a1e
